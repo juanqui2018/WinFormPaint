@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace juanCarlos.Paint
 {
-    public partial class Form1 : Form
+    public partial class Padre : Form
     {
         private int contador = 1;
 
-        public Form1()
+        public Padre()
         {
             InitializeComponent();
         }

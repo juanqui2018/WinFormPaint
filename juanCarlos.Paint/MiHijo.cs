@@ -15,25 +15,9 @@ namespace juanCarlos.Paint
 {
     public partial class MiHijo : Form
     {
-
-
-
-        //using (Bitmap bitmap = new Bitmap(panel1.ClientSize.Width, panel1.ClientSize.Height)) 
-
-        ////public Image img = 
-        //public Bitmap bitmap = new Bitmap(pnl_Draw.ClientSize.Width, pnl_Draw.ClientSize.Height);
-        ////    public Image img = pnl_Draw
-        ////    {
-        ////        get { return img.jpg; }
-        ////set { img.png = value; }
-        ////    }
-        //public Image img;
-        //public dynamic img { get; set; }
-
         public Bitmap unobitMap { get; set; }
         public Rectangle dos;
         
-
         public MiHijo()
         {
             InitializeComponent();
@@ -139,8 +123,6 @@ namespace juanCarlos.Paint
         {
             drawEllipse = true;
         }
-
-       
 
         private void btnSave_Click(object sender, EventArgs e)
         {
